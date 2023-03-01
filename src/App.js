@@ -1,12 +1,12 @@
 import './App.css';
-import CardioLevel from './components/cardiolevel/CardioLevel';
-// import YouTubeProject from './components/youTubePage/YouTubeProject';
+// import CardioLevel from './components/cardiolevel/CardioLevel';
+import YouTubeProject from './components/youTubePage/YouTubeProject';
 
 function App() {
   return (
     <div className="App">
-      <CardioLevel/>
-      {/* <YouTubeProject/> */}
+      {/* <CardioLevel/> */}
+      <YouTubeProject/>
     </div>
   );
 }

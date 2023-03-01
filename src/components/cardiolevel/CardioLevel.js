@@ -19,7 +19,7 @@ export default function CardioLevel() {
     }
   ]
   const [cl, setCl] = useState(0)
-  
+
   return (
     <div className={style.CardioLevel}>
       <div className={style.container}>
@@ -35,8 +35,7 @@ export default function CardioLevel() {
               }}
               key={item.id}
               data-id={item.id}
-              className={`${style.cardioCard} ${cl===item.id ? style.cardioCardTarget:''}`}
-            >
+              className={`${style.cardioCard} ${cl===item.id ? style.cardioCardTarget:''}`}>
               <div className={style.cardioInfo}>
                 <h3>{item.title}</h3>
               </div>
